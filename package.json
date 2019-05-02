@@ -1,0 +1,38 @@
+{
+  "name": "br_task2",
+  "version": "1.0.0",
+  "description": "get all valid moves",
+  "main": "./src/index.js",
+  "module": "./src/main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r esm ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u02249/br_task2.git"
+  },
+  "author": "Sverchkov Evgeniy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/u02249/br_task2/issues"
+  },
+  "homepage": "https://github.com/u02249/br_task2#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "esm": "^3.2.22",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ]
+  },
+  "dependencies": {}
+}
